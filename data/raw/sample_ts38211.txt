@@ -1,0 +1,25 @@
+3GPP TS 38.211 v18.4.0 (2024-06)
+Release 18
+
+4.2 Numerologies
+Multiple OFDM numerologies are supported as given by Table 4.2-1.
+Table 4.2-1: Supported transmission numerologies
+mu    Subcarrier spacing (kHz)   Cyclic prefix
+0     15                         Normal
+1     30                         Normal
+2     60                         Normal, Extended
+3     120                        Normal
+4     240                        Normal
+5     480                        Normal
+6     960                        Normal
+Only the numerology mu=2 with subcarrier spacing 60 kHz supports
+extended cyclic prefix. Other numerologies use normal cyclic prefix only.
+
+4.3 Frame structure
+4.3.1 Frames and subframes
+Downlink, uplink, and sidelink transmissions are organized into frames.
+
+4.3.1 Cyclic prefix
+For normal cyclic prefix, the cyclic prefix length T_CP is given by
+T_CP = 144 * kappa * 2^(-mu) * T_c
+where kappa = 64 and T_c = 1 / (480000 * 4096) seconds approximately 0.509 ns.

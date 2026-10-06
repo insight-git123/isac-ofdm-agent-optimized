@@ -1,0 +1,44 @@
+meta:
+  project: isac-ofdm-agent
+  task: task1_extraction
+  release: Rel-18
+  source: 3GPP TS 38.211 v18.4.0
+  input_file: sample_ts38211.txt
+  validation_passed: true
+numerology:
+- mu: 0
+  scs_khz: 15
+  cp_types:
+  - normal
+  cp_duration_us: 4.6909
+- mu: 1
+  scs_khz: 30
+  cp_types:
+  - normal
+  cp_duration_us: 2.3455
+- mu: 2
+  scs_khz: 60
+  cp_types:
+  - normal
+  - extended
+  cp_duration_us: 1.1727
+- mu: 3
+  scs_khz: 120
+  cp_types:
+  - normal
+  cp_duration_us: 0.5864
+- mu: 4
+  scs_khz: 240
+  cp_types:
+  - normal
+  cp_duration_us: 0.2932
+- mu: 5
+  scs_khz: 480
+  cp_types:
+  - normal
+  cp_duration_us: 0.1466
+- mu: 6
+  scs_khz: 960
+  cp_types:
+  - normal
+  cp_duration_us: 0.0733

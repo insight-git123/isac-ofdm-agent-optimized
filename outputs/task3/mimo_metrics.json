@@ -1,0 +1,26 @@
+[
+  {
+    "n_antennas": 4,
+    "n_trials": 10,
+    "n_detections": 30,
+    "range_rmse_m": 0.987,
+    "velocity_rmse_ms": 0.093,
+    "angle_rmse_deg": 5.16
+  },
+  {
+    "n_antennas": 8,
+    "n_trials": 10,
+    "n_detections": 30,
+    "range_rmse_m": 0.987,
+    "velocity_rmse_ms": 0.093,
+    "angle_rmse_deg": 1.762
+  },
+  {
+    "n_antennas": 16,
+    "n_trials": 10,
+    "n_detections": 30,
+    "range_rmse_m": 0.987,
+    "velocity_rmse_ms": 0.093,
+    "angle_rmse_deg": 0.586
+  }
+]

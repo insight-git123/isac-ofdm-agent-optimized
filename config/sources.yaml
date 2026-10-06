@@ -1,0 +1,58 @@
+release_lock: "Rel-18"
+release_date: "2024-06"
+
+sources:
+  - id: ts38211
+    level: L1
+    type: standard
+    org: 3GPP
+    number: "TS 38.211"
+    version: "v18.4.0"
+    release: "Rel-18"
+    title: "NR; Physical channels and modulation"
+    url: "https://www.3gpp.org/ftp/Specs/archive/38_series/38.211/"
+    key_sections:
+      - section: "§4.2"
+        anchor: "Table 4.2-1: Supported transmission numerologies"
+        keywords: ["numerology", "subcarrier spacing", "cyclic prefix"]
+      - section: "§4.3.1"
+        anchor: "Cyclic prefix"
+        keywords: ["T_CP", "kappa", "T_c", "normal CP", "extended CP"]
+      - section: "§7.4.1.7"
+        anchor: "PRS"
+        keywords: ["dl-PRS", "positioning reference signal"]
+    confidence: 1.00
+
+  - id: tr22837
+    level: L1
+    type: standard
+    org: 3GPP
+    number: "TR 22.837"
+    version: "v18.0.0"
+    release: "Rel-18"
+    title: "Feasibility Study on Integrated Sensing and Communication"
+    confidence: 1.00
+
+  - id: proakis
+    level: L2
+    type: textbook
+    authors: "Proakis & Salehi"
+    title: "Digital Communications"
+    edition: 5
+    year: 2008
+    confidence: 0.95
+
+  - id: sturm2011
+    level: L3
+    type: journal
+    authors: "Sturm & Wiesbeck"
+    title: "Waveform Design and Signal Processing Aspects for Fusion of Wireless Communications and Radar Sensing"
+    venue: "Proc. IEEE"
+    year: 2011
+    doi: "10.1109/JPROC.2011.2131110"
+    confidence: 0.90
+
+rules:
+  version_check: "所有L1引用必须标注 v18.x.x 与 Rel-18"
+  conflict_resolution: "L1 > L2 > L3 > L4 > L5"
+  on_non_rel18: "标记为非基准版本，拒绝自动引用"

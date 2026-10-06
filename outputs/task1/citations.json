@@ -1,0 +1,18 @@
+[
+  {
+    "section": "Sec 4.2 Table 4.2-1",
+    "citation": "[L1] 3GPP TS 38.211 v18.4.0, Rel-18, Sec 4.2 Table 4.2-1",
+    "fields": [
+      "mu",
+      "scs_khz",
+      "cp_types"
+    ]
+  },
+  {
+    "section": "Sec 4.3.1",
+    "citation": "[L1] 3GPP TS 38.211 v18.4.0, Rel-18, Sec 4.3.1",
+    "fields": [
+      "cp_duration_us"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "numerology": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "expected": {
+      "0": {
+        "scs_khz": 15,
+        "cp_types": [
+          "normal"
+        ]
+      },
+      "1": {
+        "scs_khz": 30,
+        "cp_types": [
+          "normal"
+        ]
+      },
+      "2": {
+        "scs_khz": 60,
+        "cp_types": [
+          "normal",
+          "extended"
+        ]
+      },
+      "3": {
+        "scs_khz": 120,
+        "cp_types": [
+          "normal"
+        ]
+      },
+      "4": {
+        "scs_khz": 240,
+        "cp_types": [
+          "normal"
+        ]
+      },
+      "5": {
+        "scs_khz": 480,
+        "cp_types": [
+          "normal"
+        ]
+      },
+      "6": {
+        "scs_khz": 960,
+        "cp_types": [
+          "normal"
+        ]
+      }
+    }
+  },
+  "cp_duration": {
+    "passed": true,
+    "errors": []
+  }
+}

@@ -1,0 +1,6 @@
+# 快速迭代配置（优化副本）
+seed: 2026
+workers: 1
+cache_size: 32
+use_vectorized_statistics: true
+preserve_original_outputs: true

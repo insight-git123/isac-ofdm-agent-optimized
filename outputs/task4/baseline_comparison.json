@@ -1,0 +1,197 @@
+{
+  "AWGN": [
+    {
+      "scenario": "AWGN",
+      "snr_db": -70,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 0.293,
+      "velocity_rmse_ms": 0.089,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -65,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 3.516,
+      "velocity_rmse_ms": 0.134,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -60,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -55,
+      "detection_rate": 0.133,
+      "avg_hits": 0.4,
+      "range_rmse_m": 3.678,
+      "velocity_rmse_ms": 7.008,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -50,
+      "detection_rate": 0.2,
+      "avg_hits": 0.6,
+      "range_rmse_m": 0.977,
+      "velocity_rmse_ms": 5.8,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -45,
+      "detection_rate": 0.533,
+      "avg_hits": 1.6,
+      "range_rmse_m": 1.644,
+      "velocity_rmse_ms": 0.105,
+      "n_trials": 5
+    },
+    {
+      "scenario": "AWGN",
+      "snr_db": -40,
+      "detection_rate": 0.8,
+      "avg_hits": 2.4,
+      "range_rmse_m": 0.405,
+      "velocity_rmse_ms": 0.097,
+      "n_trials": 5
+    }
+  ],
+  "SinglePath": [
+    {
+      "scenario": "SinglePath",
+      "snr_db": -70,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -65,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -60,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 3.516,
+      "velocity_rmse_ms": 19.955,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -55,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -50,
+      "detection_rate": 0.133,
+      "avg_hits": 0.4,
+      "range_rmse_m": 2.385,
+      "velocity_rmse_ms": 7.166,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -45,
+      "detection_rate": 0.467,
+      "avg_hits": 1.4,
+      "range_rmse_m": 0.254,
+      "velocity_rmse_ms": 0.112,
+      "n_trials": 5
+    },
+    {
+      "scenario": "SinglePath",
+      "snr_db": -40,
+      "detection_rate": 0.533,
+      "avg_hits": 1.6,
+      "range_rmse_m": 0.259,
+      "velocity_rmse_ms": 0.109,
+      "n_trials": 5
+    }
+  ],
+  "TDL-A": [
+    {
+      "scenario": "TDL-A",
+      "snr_db": -70,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 0.146,
+      "velocity_rmse_ms": 9.911,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -65,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -60,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 2.734,
+      "velocity_rmse_ms": 9.955,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -55,
+      "detection_rate": 0.067,
+      "avg_hits": 0.2,
+      "range_rmse_m": 4.59,
+      "velocity_rmse_ms": 10.134,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -50,
+      "detection_rate": 0.0,
+      "avg_hits": 0.0,
+      "range_rmse_m": 0.0,
+      "velocity_rmse_ms": 0.0,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -45,
+      "detection_rate": 0.267,
+      "avg_hits": 0.8,
+      "range_rmse_m": 1.025,
+      "velocity_rmse_ms": 0.124,
+      "n_trials": 5
+    },
+    {
+      "scenario": "TDL-A",
+      "snr_db": -40,
+      "detection_rate": 0.467,
+      "avg_hits": 1.4,
+      "range_rmse_m": 1.371,
+      "velocity_rmse_ms": 0.105,
+      "n_trials": 5
+    }
+  ]
+}
