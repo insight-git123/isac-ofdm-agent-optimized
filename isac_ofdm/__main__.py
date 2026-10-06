@@ -15,10 +15,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-# Keep CLI diagnostics readable on Windows consoles using a legacy code page.
-if hasattr(sys.stdout, "buffer"):
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", write_through=True)
-
 
 def _run_task(script_name: str, extra_args: list = None) -> int:
     """调用 tasks/ 下的脚本。"""
@@ -141,6 +137,9 @@ def build_parser():
 
 
 def main():
+    # Configure UTF-8 only for the executable CLI; importing this module must not replace pytest capture streams.
+    if hasattr(sys.stdout, "buffer"):
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", write_through=True)
     parser = build_parser()
     args = parser.parse_args()
     rc = args.func(args)
